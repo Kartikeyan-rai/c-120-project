@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>
+        Realtime image identification
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h2 class="header">Case Study Google Lens And MobileNet</h2>
+    <h3 class="text">Google Lens <img src="lens.jpg"></h3>
+    <h3 class="text">VS</h3>
+    <h3 class="btn btn-info text-info">MobileNet</h3>
+    <br>
+    <br>
+    <section id="whatnew">
+        <div class="page-header" id="enviroment">
+            <h2 class="text-capitalize">Test 1</h2>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-10 col-md-10 col-sm-10 col-xs-10 environment_li">
+                <h4>Bottel</h4><img src="bottel.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" style="width: 200px;">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-12 col-xs-12">Output on Google lens:- <span> Water bottel</span></p>
+                <br>
+                <br>
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-12 col-xs-12">Output on MobileNet:- <span> Water bottel</span></p>
+                <br>
+                <br>
+                <p class="list-group_text col-lg-7 col-md-7 col-sm-12 col-xs-12">Result:-</p>
+                <div id="line"></div>
+                <p class="list-group_text col-lg-7 col-md-7 col-sm-12 col-xs-12">DRAW</p>
+            </li>
+        </ul>
+        </section>
+        <br>
+        <br>
+    <div id="copyright_footer">Devoloped By :- Kartikeyan</div>
+</body>
+
+</html>
